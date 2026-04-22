@@ -5,7 +5,7 @@
     <meta name="author" content="Naveed Sultan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naveed Sultan | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=6">
     <link rel="shortcut icon" href="pics/nsd.jpg" type="image/x-icon">
 </head>
 
@@ -14,62 +14,95 @@
 <!-- NAVBAR -->
 <nav class="navbar">
     <div class="nav-container">
-        <p class="logo"> HI IM NSD!</p>
+
+        <p class="logo">HI I'M NSD!</p>
+
         <ul class="links">
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
         </ul>
+
+        <!-- SOCIALS TOP -->
+        <div class="nav-socials">
+            <a href="mailto:naveeddar850@gmail.com">
+                <img src="pics/gmail.png" alt="gmail">
+            </a>
+            <a href="https://github.com/naveeddar-codes" target="_blank">
+                <img src="pics/github.png" alt="github">
+            </a>
+            <a href="https://www.linkedin.com/in/naveed-sultan-ba9725393/" target="_blank">
+                <img src="pics/linkedin.png" alt="linkedin">
+            </a>
+        </div>
+
     </div>
 </nav>
 
-<!-- HERO SECTION -->
+<!-- HERO -->
 <header class="intro">
     <img src="pics/profile.jpg" alt="Profile" class="profile-img">
     <h1>Naveed Sultan Dar</h1>
-    <p>BCA Graduate | MCA Student | Web Developer</p>
+    <p>BCA Graduate | MCA Student | Front-End Developer(In progress)</p>
 </header>
 
 <!-- ABOUT -->
 <section id="about">
     <h2>About Me</h2>
     <p>
-        I am an MCA student with a background in BCA. I am focused on building
-        modern and responsive websites using HTML and CSS.
+        I am an MCA student with a strong background in BCA. I am focused on building
+        modern, responsive, and user-friendly web applications.
     </p>
     <p>
-        I believe in <strong>learning by doing</strong> and constantly improving my skills.
+        I believe in <strong>learning by doing</strong> and continuously improving my skills by
+        working on real-world projects.
     </p>
 </section>
 
 <!-- SKILLS -->
 <section id="skills">
-    <h2>Skills</h2>
-    <div class="skill-box">
-        <span>HTML</span>
-        <span>CSS</span>
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="skill-card">HTML</a>
+
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="skill-card">CSS</a>
+
+        <a href="https://www.java.com/" target="_blank" class="skill-card">Java</a>
+
+        <a href="https://www.python.org/" target="_blank" class="skill-card">Python</a>
+
+        <a href="#" class="skill-card">UI/UX Design</a>
+
     </div>
 </section>
 
 <!-- PROJECTS -->
 <section id="projects">
     <h2>Projects</h2>
-    <p>Profile Website (Current)</p>
-</section>
 
-<!-- FOOTER -->
-<footer class="social">
-    <a href="mailto:naveeddar850@gmail.com">
-        <img src="pics/gmail.png">
-    </a>
-    <a href="https://github.com/naveeddar-codes" target="_blank">
-        <img src="pics/github.png">
-    </a>
-    <a href="https://www.linkedin.com/in/naveed-sultan-ba9725393/" target="_blank">
-        <img src="pics/linkedin.png">
-    </a>
-</footer>
+    <div class="projects-container">
+
+        <!-- BMI -->
+        <div class="project-card">
+            <h3>BMI Calculator</h3>
+            <p>Built using Python with UI design.</p>
+            <a href="https://bmi-calculator-1ryn.onrender.com/" target="_blank">Live Demo</a>
+        </div>
+
+        <!-- MARS BANK -->
+        <div class="project-card">
+            <h3>BunkSafe Website</h3>
+            <p>A responsive banking UI project.</p>
+            <a href="https://bunksafe.onrender.com/" target="_blank">Live Demo</a>
+        </div>
+
+   
+
+    </div>
+</section>
 
 </body>
 </html>
