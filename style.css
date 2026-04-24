@@ -8,7 +8,7 @@
 /* BODY */
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #1d2671, #c33764);
+    background: linear-gradient(135deg, #323da1, #0d5f49);
 }
 
 /* NAVBAR */
@@ -166,4 +166,8 @@ h2 {
     section {
         margin: 15px;
     }
+}
+
+footer{
+    padding: 10px;;
 }
