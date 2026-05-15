@@ -171,3 +171,18 @@ h2 {
 footer{
     padding: 10px;;
 }
+
+/* contact page */
+
+#contact-page{
+    background:none;
+}
+
+input:focus{
+        outline: 1px solid rgb(48, 48, 227);
+        outline-offset: 3px;
+    }
+#field{
+    border-radius: 20px;
+    border: 1px solid black;
+}
